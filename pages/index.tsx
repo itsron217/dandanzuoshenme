@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           <p className="text-left text-2xl font-bold mt-10 mb-6">联系我们</p>
           <div className="text-left text-[#969696] font-[545] gap-2 flex flex-col mb-12">
               <a href="https://weibo.com/dandanzuoshenme">微博：蛋蛋做什么</a>
-              <a data-tooltip-target="tooltip-default" type="button" className="w-40 md:w-36">公众号：蛋蛋做什么</a>
+              <a data-tooltip-target="tooltip-default" type="button" className="w-40">公众号：蛋蛋做什么</a>
               <div id="tooltip-default" role="tooltip"
                    className="absolute z-10 invisible inline-block px-3 py-2 transition-opacity duration-300 bg-white rounded-lg shadow-sm opacity-0 tooltip">
                   <img src="/点击公众号弹出二维码.png" alt="二维码" className="w-32 h-32"/>
